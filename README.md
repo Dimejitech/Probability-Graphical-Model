@@ -22,7 +22,8 @@ pip install pandas numpy matplotlib networkx
 jupyter notebook medical_pgm.ipynb
 
 
-📁 Project Structure
+```
+## 📁 Project Structure
 This project is fully contained in a single notebook:
 
 Bayesian-Network-Medical-Risk-PGM/
