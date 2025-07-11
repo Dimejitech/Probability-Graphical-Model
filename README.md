@@ -23,8 +23,24 @@ jupyter notebook medical_pgm.ipynb
 
 
 ```
-## 📁 Project Structure
-This project is fully contained in a single notebook:
+## 📊 Example Use Case
+Estimate the probability of heart disease for a given patient profile:
 
-Bayesian-Network-Medical-Risk-PGM/
-└── medical_pgm.ipynb  # All code, analysis, and visualization in one notebook
+```
+evidence = {'Age': 'Old', 'Smoking': 'Yes', 'Exercise': 'No'}
+model.predict_probability('Heart_Disease', 'Yes', evidence)
+```
+
+## 📘 Concepts Demonstrated
+- Bayesian networks
+
+- Conditional and marginal probability
+
+- Directed acyclic graphs (DAGs)
+
+- Probabilistic inference
+
+- Model validation using raw data
+
+## 📝 License
+This project is open-source and available under the MIT License.
